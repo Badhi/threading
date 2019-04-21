@@ -7,7 +7,8 @@
 Data * generateData()
 {
     Data * d = new Data();
-    d->size = DATA_SIZE + rand() % 1000;
+    //d->size = DATA_SIZE + rand() % 1000;
+    d->size = 10000000;
     d->buffer = new char[d->size];
     for(uint i = 0; i < d->size; i++)
         d->buffer[i] = (char) rand() % 127;

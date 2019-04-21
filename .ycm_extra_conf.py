@@ -48,6 +48,7 @@ flags = [
 '-Wno-long-long',
 '-Wno-variadic-macros',
 '-fexceptions',
+'-std=c++11',
 # You 100% do NOT need -DUSE_CLANG_COMPLETER and/or -DYCM_EXPORT in your flags;
 # only the YCM source code needs it.
 # THIS IS IMPORTANT! Without the '-x' flag, Clang won't know which language to
